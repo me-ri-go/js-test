@@ -3,8 +3,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .btn:hover {
+            cursor: pointer;
+            cursor: hand;
+        }
+        .btn.clicked {
+            border: 2px solid red;
+            border-radius: 2px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <button class="btn" id="btn01">click here</button>
+    <button class="btn">click here</button>
+    <button class="btn">click here</button>
+
     <script src="test.js"></script>
 </body>
 </html>
